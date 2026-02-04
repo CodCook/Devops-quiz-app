@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DevOps Quiz App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Start Screen -->
+        <div id="start-screen" class="screen">
+            <h1>🚀 DevOps Quiz</h1>
+            <p class="description">Test your knowledge of DevOps concepts, tools, and best practices!</p>
+            <button id="start-btn" class="btn btn-primary">Start Quiz</button>
+        </div>
+
+        <!-- Quiz Screen -->
+        <div id="quiz-screen" class="screen hidden">
+            <div class="quiz-header">
+                <div class="progress-container">
+                    <div id="progress-bar" class="progress-bar"></div>
+                </div>
+                <div class="quiz-info">
+                    <span id="question-counter">Question 1/10</span>
+                    <span id="score-display">Score: 0</span>
+                </div>
+            </div>
+
+            <div class="question-container">
+                <h2 id="question-text">Question text goes here</h2>
+                <div id="options-container" class="options-container">
+                    <!-- Options will be dynamically inserted here -->
+                </div>
+            </div>
+
+            <div class="quiz-footer">
+                <button id="next-btn" class="btn btn-primary" disabled>Next Question</button>
+            </div>
+        </div>
+
+        <!-- Results Screen -->
+        <div id="results-screen" class="screen hidden">
+            <h1>Quiz Complete! 🎉</h1>
+            <div class="results-container">
+                <div class="score-circle">
+                    <span id="final-score">0</span>
+                    <span class="score-label">out of <span id="total-questions">10</span></span>
+                </div>
+                <p id="results-message" class="results-message">Great job!</p>
+                <div class="results-stats">
+                    <div class="stat">
+                        <span class="stat-value" id="correct-count">0</span>
+                        <span class="stat-label">Correct</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-value" id="incorrect-count">0</span>
+                        <span class="stat-label">Incorrect</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-value" id="percentage">0%</span>
+                        <span class="stat-label">Score</span>
+                    </div>
+                </div>
+            </div>
+            <button id="restart-btn" class="btn btn-primary">Try Again</button>
+        </div>
+
+        <!-- Loading Screen -->
+        <div id="loading-screen" class="screen hidden">
+            <div class="loader"></div>
+            <p>Loading questions...</p>
+        </div>
+
+        <!-- Error Screen -->
+        <div id="error-screen" class="screen hidden">
+            <h1>⚠️ Error</h1>
+            <p id="error-message">Failed to load questions. Please try again.</p>
+            <button id="retry-btn" class="btn btn-primary">Retry</button>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
