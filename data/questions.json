@@ -1,262 +1,284 @@
-[
-  {
-    "id": "Q1",
-    "topic": "Continuous Integration",
-    "question": "What is the primary goal of Continuous Integration?",
-    "options": [
-      "Automatically deploy to production",
-      "Frequently integrate code changes into a shared repository",
-      "Eliminate the need for testing",
-      "Remove the need for branches"
-    ],
-    "answerIndex": 1,
-    "explanation": "Continuous Integration aims to detect integration issues early."
-  },
-  {
-    "id": "Q2",
-    "topic": "DevOps Culture",
-    "question": "Which of the following best describes the DevOps culture?",
-    "options": [
-      "Strict separation between development and operations",
-      "Collaboration and shared responsibility between teams",
-      "Developers work alone",
-      "Operations team handles all deployments"
-    ],
-    "answerIndex": 1,
-    "explanation": "DevOps culture emphasizes collaboration and shared responsibility."
-  },
-  {
-    "id": "Q3",
-    "topic": "Version Control Systems",
-    "question": "What is the main benefit of using a Version Control System (VCS)?",
-    "options": [
-      "Manual code backups",
-      "Tracking and managing code changes",
-      "Eliminating the need for code reviews",
-      "Forcing developers to work on the same file"
-    ],
-    "answerIndex": 1,
-    "explanation": "VCS helps track and manage changes to code over time."
-  },
-  {
-    "id": "Q4",
-    "topic": "Continuous Delivery",
-    "question": "What is the goal of Continuous Delivery?",
-    "options": [
-      "Deploying code once a year",
-      "Ensuring code is always ready for deployment",
-      "Skipping testing phases",
-      "Manual deployment only"
-    ],
-    "answerIndex": 1,
-    "explanation": "Continuous Delivery ensures code is always in a deployable state."
-  },
-  {
-    "id": "Q5",
-    "topic": "Continuous Integration",
-    "question": "Which tool is commonly used for Continuous Integration?",
-    "options": [
-      "Jenkins",
-      "Photoshop",
-      "Excel",
-      "Notepad"
-    ],
-    "answerIndex": 0,
-    "explanation": "Jenkins is a popular CI tool."
-  },
-  {
-    "id": "Q6",
-    "topic": "DevOps Culture",
-    "question": "What is a key practice in DevOps for improving software quality?",
-    "options": [
-      "Ignoring feedback",
-      "Automating testing and deployment",
-      "Manual deployments only",
-      "Avoiding documentation"
-    ],
-    "answerIndex": 1,
-    "explanation": "Automation is central to DevOps for improving quality and speed."
-  },
-  {
-    "id": "Q7",
-    "topic": "Version Control Systems",
-    "question": "Which command is used to create a new branch in Git?",
-    "options": [
-      "git commit",
-      "git branch",
-      "git merge",
-      "git push"
-    ],
-    "answerIndex": 1,
-    "explanation": "'git branch' creates a new branch in Git."
-  },
-  {
-    "id": "Q8",
-    "topic": "Continuous Delivery",
-    "question": "Which of the following is a benefit of Continuous Delivery?",
-    "options": [
-      "Longer release cycles",
-      "Faster and more reliable releases",
-      "Less frequent testing",
-      "Manual code integration"
-    ],
-    "answerIndex": 1,
-    "explanation": "Continuous Delivery enables faster and more reliable releases."
-  },
-  {
-    "id": "Q9",
-    "topic": "Continuous Integration",
-    "question": "What happens if a build fails in a CI pipeline?",
-    "options": [
-      "The code is automatically deployed",
-      "The team is notified to fix the issue",
-      "The build is ignored",
-      "The repository is deleted"
-    ],
-    "answerIndex": 1,
-    "explanation": "A failed build notifies the team to address the issue."
-  },
-  {
-    "id": "Q10",
-    "topic": "DevOps Culture",
-    "question": "Which value is most important in a DevOps team?",
-    "options": [
-      "Blame assignment",
-      "Collaboration",
-      "Isolation",
-      "Competition"
-    ],
-    "answerIndex": 1,
-    "explanation": "Collaboration is a core value in DevOps."
-  },
-  {
-    "id": "Q11",
-    "topic": "Version Control Systems",
-    "question": "What does 'git merge' do?",
-    "options": [
-      "Deletes a branch",
-      "Combines changes from different branches",
-      "Creates a new repository",
-      "Pushes code to remote"
-    ],
-    "answerIndex": 1,
-    "explanation": "'git merge' combines changes from different branches."
-  },
-  {
-    "id": "Q12",
-    "topic": "Continuous Delivery",
-    "question": "Which practice is essential for Continuous Delivery?",
-    "options": [
-      "Manual testing only",
-      "Automated testing",
-      "No documentation",
-      "Infrequent code integration"
-    ],
-    "answerIndex": 1,
-    "explanation": "Automated testing is essential for Continuous Delivery."
-  },
-  {
-    "id": "Q13",
-    "topic": "Continuous Integration",
-    "question": "Which of the following is NOT a benefit of Continuous Integration?",
-    "options": [
-      "Early detection of bugs",
-      "Faster feedback",
-      "Increased manual work",
-      "Improved code quality"
-    ],
-    "answerIndex": 2,
-    "explanation": "CI reduces manual work by automating builds and tests."
-  },
-  {
-    "id": "Q14",
-    "topic": "DevOps Culture",
-    "question": "What is a common outcome of adopting DevOps practices?",
-    "options": [
-      "Slower release cycles",
-      "Improved collaboration and faster delivery",
-      "More silos",
-      "Less automation"
-    ],
-    "answerIndex": 1,
-    "explanation": "DevOps leads to better collaboration and faster delivery."
-  },
-  {
-    "id": "Q15",
-    "topic": "Version Control Systems",
-    "question": "Which VCS allows distributed workflows?",
-    "options": [
-      "Git",
-      "SVN",
-      "CVS",
-      "All of the above"
-    ],
-    "answerIndex": 0,
-    "explanation": "Git is a distributed version control system."
-  },
-  {
-    "id": "Q16",
-    "topic": "Continuous Delivery",
-    "question": "What is a deployment pipeline?",
-    "options": [
-      "A manual checklist for releases",
-      "A series of automated steps to deliver software",
-      "A type of version control",
-      "A programming language"
-    ],
-    "answerIndex": 1,
-    "explanation": "A deployment pipeline automates the delivery process."
-  },
-  {
-    "id": "Q17",
-    "topic": "Continuous Integration",
-    "question": "Which action should be taken when a test fails in CI?",
-    "options": [
-      "Ignore the failure",
-      "Fix the code and rerun the pipeline",
-      "Delete the repository",
-      "Release to production"
-    ],
-    "answerIndex": 1,
-    "explanation": "Failed tests should be fixed before proceeding."
-  },
-  {
-    "id": "Q18",
-    "topic": "DevOps Culture",
-    "question": "Which of the following is a DevOps principle?",
-    "options": [
-      "Automate everything possible",
-      "Manual deployments only",
-      "No feedback loops",
-      "Siloed teams"
-    ],
-    "answerIndex": 0,
-    "explanation": "Automation is a key DevOps principle."
-  },
-  {
-    "id": "Q19",
-    "topic": "Version Control Systems",
-    "question": "What is a pull request?",
-    "options": [
-      "A request to delete a branch",
-      "A request to merge code changes into another branch",
-      "A command to push code",
-      "A type of bug report"
-    ],
-    "answerIndex": 1,
-    "explanation": "A pull request proposes merging code changes."
-  },
-  {
-    "id": "Q20",
-    "topic": "Continuous Delivery",
-    "question": "What is the main advantage of automated deployments?",
-    "options": [
-      "Increased manual errors",
-      "Faster and more reliable releases",
-      "Longer downtime",
-      "Less frequent releases"
-    ],
-    "answerIndex": 1,
-    "explanation": "Automated deployments reduce errors and speed up releases."
-  }
-]
+{
+  "questions": [
+    {
+      "id": "Q1",
+      "topic": "Continuous Integration",
+      "question": "What is the primary goal of Continuous Integration?",
+      "options": [
+        "Automatically deploy to production",
+        "Frequently integrate code changes into a shared repository",
+        "Eliminate the need for testing",
+        "Remove the need for branches"
+      ],
+      "answerIndex": 1,
+      "answer": "Frequently integrate code changes into a shared repository",
+      "explanation": "Continuous Integration aims to detect integration issues early."
+    },
+    {
+      "id": "Q2",
+      "topic": "DevOps Culture",
+      "question": "Which of the following best describes the DevOps culture?",
+      "options": [
+        "Strict separation between development and operations",
+        "Collaboration and shared responsibility between teams",
+        "Developers work alone",
+        "Operations team handles all deployments"
+      ],
+      "answerIndex": 1,
+      "answer": "Collaboration and shared responsibility between teams",
+      "explanation": "DevOps culture emphasizes collaboration and shared responsibility."
+    },
+    {
+      "id": "Q3",
+      "topic": "Version Control Systems",
+      "question": "What is the main benefit of using a Version Control System (VCS)?",
+      "options": [
+        "Manual code backups",
+        "Tracking and managing code changes",
+        "Eliminating the need for code reviews",
+        "Forcing developers to work on the same file"
+      ],
+      "answerIndex": 1,
+      "answer": "Tracking and managing code changes",
+      "explanation": "VCS helps track and manage changes to code over time."
+    },
+    {
+      "id": "Q4",
+      "topic": "Continuous Delivery",
+      "question": "What is the goal of Continuous Delivery?",
+      "options": [
+        "Deploying code once a year",
+        "Ensuring code is always ready for deployment",
+        "Skipping testing phases",
+        "Manual deployment only"
+      ],
+      "answerIndex": 1,
+      "answer": "Ensuring code is always ready for deployment",
+      "explanation": "Continuous Delivery ensures code is always in a deployable state."
+    },
+    {
+      "id": "Q5",
+      "topic": "Continuous Integration",
+      "question": "Which tool is commonly used for Continuous Integration?",
+      "options": [
+        "Jenkins",
+        "Photoshop",
+        "Excel",
+        "Notepad"
+      ],
+      "answerIndex": 0,
+      "answer": "Jenkins",
+      "explanation": "Jenkins is a popular CI tool."
+    },
+    {
+      "id": "Q6",
+      "topic": "DevOps Culture",
+      "question": "What is a key practice in DevOps for improving software quality?",
+      "options": [
+        "Ignoring feedback",
+        "Automating testing and deployment",
+        "Manual deployments only",
+        "Avoiding documentation"
+      ],
+      "answerIndex": 1,
+      "answer": "Automating testing and deployment",
+      "explanation": "Automation is central to DevOps for improving quality and speed."
+    },
+    {
+      "id": "Q7",
+      "topic": "Version Control Systems",
+      "question": "Which command is used to create a new branch in Git?",
+      "options": [
+        "git commit",
+        "git branch",
+        "git merge",
+        "git push"
+      ],
+      "answerIndex": 1,
+      "answer": "git branch",
+      "explanation": "'git branch' creates a new branch in Git."
+    },
+    {
+      "id": "Q8",
+      "topic": "Continuous Delivery",
+      "question": "Which of the following is a benefit of Continuous Delivery?",
+      "options": [
+        "Longer release cycles",
+        "Faster and more reliable releases",
+        "Less frequent testing",
+        "Manual code integration"
+      ],
+      "answerIndex": 1,
+      "answer": "Faster and more reliable releases",
+      "explanation": "Continuous Delivery enables faster and more reliable releases."
+    },
+    {
+      "id": "Q9",
+      "topic": "Continuous Integration",
+      "question": "What happens if a build fails in a CI pipeline?",
+      "options": [
+        "The code is automatically deployed",
+        "The team is notified to fix the issue",
+        "The build is ignored",
+        "The repository is deleted"
+      ],
+      "answerIndex": 1,
+      "answer": "The team is notified to fix the issue",
+      "explanation": "A failed build notifies the team to address the issue."
+    },
+    {
+      "id": "Q10",
+      "topic": "DevOps Culture",
+      "question": "Which value is most important in a DevOps team?",
+      "options": [
+        "Blame assignment",
+        "Collaboration",
+        "Isolation",
+        "Competition"
+      ],
+      "answerIndex": 1,
+      "answer": "Collaboration",
+      "explanation": "Collaboration is a core value in DevOps."
+    },
+    {
+      "id": "Q11",
+      "topic": "Version Control Systems",
+      "question": "What does 'git merge' do?",
+      "options": [
+        "Deletes a branch",
+        "Combines changes from different branches",
+        "Creates a new repository",
+        "Pushes code to remote"
+      ],
+      "answerIndex": 1,
+      "answer": "Combines changes from different branches",
+      "explanation": "'git merge' combines changes from different branches."
+    },
+    {
+      "id": "Q12",
+      "topic": "Continuous Delivery",
+      "question": "Which practice is essential for Continuous Delivery?",
+      "options": [
+        "Manual testing only",
+        "Automated testing",
+        "No documentation",
+        "Infrequent code integration"
+      ],
+      "answerIndex": 1,
+      "answer": "Automated testing",
+      "explanation": "Automated testing is essential for Continuous Delivery."
+    },
+    {
+      "id": "Q13",
+      "topic": "Continuous Integration",
+      "question": "Which of the following is NOT a benefit of Continuous Integration?",
+      "options": [
+        "Early detection of bugs",
+        "Faster feedback",
+        "Increased manual work",
+        "Improved code quality"
+      ],
+      "answerIndex": 2,
+      "answer": "Increased manual work",
+      "explanation": "CI reduces manual work by automating builds and tests."
+    },
+    {
+      "id": "Q14",
+      "topic": "DevOps Culture",
+      "question": "What is a common outcome of adopting DevOps practices?",
+      "options": [
+        "Slower release cycles",
+        "Improved collaboration and faster delivery",
+        "More silos",
+        "Less automation"
+      ],
+      "answerIndex": 1,
+      "answer": "Improved collaboration and faster delivery",
+      "explanation": "DevOps leads to better collaboration and faster delivery."
+    },
+    {
+      "id": "Q15",
+      "topic": "Version Control Systems",
+      "question": "Which VCS allows distributed workflows?",
+      "options": [
+        "Git",
+        "SVN",
+        "CVS",
+        "All of the above"
+      ],
+      "answerIndex": 0,
+      "answer": "Git",
+      "explanation": "Git is a distributed version control system."
+    },
+    {
+      "id": "Q16",
+      "topic": "Continuous Delivery",
+      "question": "What is a deployment pipeline?",
+      "options": [
+        "A manual checklist for releases",
+        "A series of automated steps to deliver software",
+        "A type of version control",
+        "A programming language"
+      ],
+      "answerIndex": 1,
+      "answer": "A series of automated steps to deliver software",
+      "explanation": "A deployment pipeline automates the delivery process."
+    },
+    {
+      "id": "Q17",
+      "topic": "Continuous Integration",
+      "question": "Which action should be taken when a test fails in CI?",
+      "options": [
+        "Ignore the failure",
+        "Fix the code and rerun the pipeline",
+        "Delete the repository",
+        "Release to production"
+      ],
+      "answerIndex": 1,
+      "answer": "Fix the code and rerun the pipeline",
+      "explanation": "Failed tests should be fixed before proceeding."
+    },
+    {
+      "id": "Q18",
+      "topic": "DevOps Culture",
+      "question": "Which of the following is a DevOps principle?",
+      "options": [
+        "Automate everything possible",
+        "Manual deployments only",
+        "No feedback loops",
+        "Siloed teams"
+      ],
+      "answerIndex": 0,
+      "answer": "Automate everything possible",
+      "explanation": "Automation is a key DevOps principle."
+    },
+    {
+      "id": "Q19",
+      "topic": "Version Control Systems",
+      "question": "What is a pull request?",
+      "options": [
+        "A request to delete a branch",
+        "A request to merge code changes into another branch",
+        "A command to push code",
+        "A type of bug report"
+      ],
+      "answerIndex": 1,
+      "answer": "A request to merge code changes into another branch",
+      "explanation": "A pull request proposes merging code changes."
+    },
+    {
+      "id": "Q20",
+      "topic": "Continuous Delivery",
+      "question": "What is the main advantage of automated deployments?",
+      "options": [
+        "Increased manual errors",
+        "Faster and more reliable releases",
+        "Longer downtime",
+        "Less frequent releases"
+      ],
+      "answerIndex": 1,
+      "answer": "Faster and more reliable releases",
+      "explanation": "Automated deployments reduce errors and speed up releases."
+    }
+  ]
+}
